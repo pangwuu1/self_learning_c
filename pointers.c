@@ -8,6 +8,7 @@ int main(int argc, char const *argv[]) {
   // char* point = &message; // Set a pointer to the first character of the message
 
   // null termination
+  message[30] = '\0'
 
   // Print out single characters
 
